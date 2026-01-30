@@ -1,0 +1,238 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\def\inputGnumericTable{}
+\usepackage[latin1]{inputenc}
+
+\usepackage{fullpage}
+\usepackage{color}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{ifthen}
+\newcommand{\solution}{\noindent\textbf{Solution: }}
+\let\vec\mathbf
+\begin{document}
+\noindent
+\begin{minipage}{0.2\textwidth}
+\includegraphics[width=\linewidth]{iiitb_comet_logo.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}{0.8\textwidth}
+\raggedleft
+\textbf{Name:} AKASH CHANDRA GUPTA\\
+\textbf{COMET ID:} COMETFWC061\\
+\textbf{email :} akashchandragupta16@gmail.com\\
+\end{minipage}
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+\begin{center}
+\textbf{\large CHAPTER 9}\\
+\textbf{\large SOME APPLICATIONS OF TRIGONOMETRY}
+\end{center}
+
+
+\vspace{4pt}
+\section*{9.1 Introduction}
+
+In the previous chapter, you have studied about trigonometric ratios. In this chapter,
+you will be studying about some ways in which trigonometry is used in the life around
+you. Trigonometry is one of the most ancient subjects studied by scholars all over the
+world. As we have said in Chapter 8, trigonometry was invented because its need
+arose in astronomy. Since then the astronomers have used it, for instance, to calculate
+distances from the Earth to the planets and stars. Trigonometry is also used in geography
+and in navigation. The knowledge of trigonometry is used to construct maps, determine
+the position of an island in relation to the longitudes and latitudes.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.2\textwidth]{a.png}
+\caption{A Theodolite}
+\end{figure}
+
+
+
+\section*{9.2 Heights and Distances}
+
+Let us consider Fig. 8.1 of prvious chapter, which is redrawn below in Fig. 9.1.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.4\textwidth]{b.png}
+\caption{Line of sight and angle of elevation}
+\end{figure}
+
+
+In this figure, the line AC drawn from the eye of the student to the top of the
+minar is called the line of sight. The student is looking at the top of the minar. The
+angle BAC, so formed by the line of sight with the horizontal, is called the angle of
+elevation of the top of the minar from the eye of the student.
+Thus, the line of sight is the line drawn from the eye of an observer to the point
+in the object viewed by the observer. The angle of elevation of the point viewed is
+the angle formed by the line of sight with the horizontal when the point being viewed is
+above the horizontal level, i.e., the case when we raise our head to look at the object
+(see Fig. 9.2).
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{c.png}
+\caption{Angle of elevation}
+\end{figure}
+
+Now, consider the situation given in Fig. 8.2. The girl sitting on the balcony is
+looking down at a flower pot placed on a stair of the temple. In this case, the line of
+sight is below the horizontal level. The angle so formed by the line of sight with the
+horizontal is called the angle of depression.
+Thus, the angle of depression of a point on the object being viewed is the angle
+formed by the line of sight with the horizontal when the point is below the horizontal
+level, i.e., the case when we lower our head to look at the point being viewed
+(see Fig. 9.3).
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{f.jpg}
+\caption{Angle of elevation}
+\end{figure}
+
+
+Now, you may identify the lines of sight, and the angles so formed in Fig. 8.3.
+Are they angles of elevation or angles of depression?
+Let us refer to Fig. 9.1 again. If you want to find the height CD of the minar
+without actually measuring it, what information do you need? You would need to know
+the following:
+(i) the distance DE at which the student is standing from the foot of the minar
+(ii) the angle of elevation, $\angle$ BAC, of the top of the minar
+(iii) the height AE of the student.
+Assuming that the above three conditions are known, how can we determine the
+height of the minar?
+In the figure, CD = CB + BD. Here, BD = AE, which is the height of the student.
+
+which of the trigonometric ratios can we use? Which one of them has the two values
+that we have and the one we need to determine? Our search narrows down to using
+either tan A or cot A, as these ratios involve AB and BC.
+
+
+
+\section*{Example 4}
+
+From a point $P$ on the ground the angle of elevation of the top of a $10$ m tall building
+is $30^\circ$. A flag is hoisted at the top of the building and the angle of elevation of the
+top of the flagstaff from $P$ is $45^\circ$. Find the length of the flagstaff and the distance
+of the building from the point $P$. (You may take $\sqrt3 = 1.732$)
+
+\solution
+
+In Fig. 9.7, $AB$ denotes the height of the building, $BD$ the flagstaff and $P$ the given
+point. Note that there are two right triangles $PAB$ and $PAD$. We are required to find
+the length of the flagstaff, i.e., $DB$ and the distance of the building from the point $P$,
+i.e., $PA$.
+
+Since we know the height of the building $AB$, we will first consider the right
+$\triangle PAB$.
+
+\[
+\tan 30^\circ = \frac{AB}{AP}
+\]
+
+i.e.,
+
+\[
+\frac{1}{\sqrt3} = \frac{10}{AP}
+\]
+
+Therefore,
+
+\[
+AP = 10\sqrt3
+\]
+
+i.e., the distance of the building from $P$ is $10\sqrt3$ m $= 17.32$ m.
+
+Next, let us suppose $DB = x$ m. Then $AD = (10 + x)$ m.
+
+Now, in right $\triangle PAD$,
+
+\[
+\tan 45^\circ = \frac{AD}{AP} = \frac{10 + x}{10\sqrt3}
+\]
+
+Therefore,
+
+\[
+1 = \frac{10 + x}{10\sqrt3}
+\]
+
+\[
+x = 10(\sqrt3 - 1)
+\]
+
+So, the length of the flagstaff is $7.32$ m.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{d.png}
+\caption{Example 4 diagram}
+\end{figure}
+
+
+
+
+\section*{Example 5}
+The shadow of a tower standing on a level ground is found to be  $40$  m longer
+when the Sun's altitude is  $30$ than when it is
+ $30$. Find the height of the tower.
+
+
+\solution
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.4\textwidth]{e.png}
+\caption{Example 5 diagram}
+\end{figure}
+
+Let the height of the tower be $h$ and the shorter shadow be $x$.
+
+\[
+\tan 60^\circ = \frac{h}{x}
+\Rightarrow h = x\sqrt3
+\]
+
+\[
+\tan 30^\circ = \frac{h}{x + 40}
+\]
+
+Substituting,
+
+\[
+(x\sqrt3)\sqrt3 = x + 40
+\Rightarrow 3x = x + 40
+\Rightarrow x = 20
+\]
+
+\[
+h = 20\sqrt3
+\]
+
+
+
+
+
+\section*{9.3 Summary}
+
+\begin{enumerate}
+\item The line of sight is the line drawn from the eye of an observer to the point in the
+object viewed by the observer.
+with the horizontal when it is above the horizontal level, i.e., the case when we raise
+our head to look at the object.
+\item The angle of depression of an object viewed, is the angle formed by the line of sight
+with the horizontal when it is below the horizontal level, i.e., the case when we lower
+our head to look at the object.
+\item The height or length of an object or the distance between two distant objects can be
+determined with the help of trigonometric ratios.
+\end{enumerate}
+
+\end{document}
