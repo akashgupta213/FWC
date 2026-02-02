@@ -5,14 +5,15 @@
 \usepackage{fullpage}
 \usepackage{array}
 
-\let\vec\mathbf
 \begin{document}
 
-\begin{minipage}{0.2\textwidth}
+\begin{minipage}{0.2\columnwidth}
 \includegraphics[width=\linewidth]{iiitb_comet_logo.jpg}
 \end{minipage}
+
 \hfill
-\begin{minipage}{0.8\textwidth}
+
+\begin{minipage}{0.8\columnwidth}
 \raggedleft
 {Name:} Akash Chandra Gupta\\
 {COMET ID:} COMETFWC061\\
@@ -23,8 +24,11 @@
 \vspace{0.5cm}
 
 \begin{center}
-{\large CHAPTER 9}\\
-{\large SOME APPLICATIONS OF TRIGONOMETRY}
+{\huge CHAPTER 9}\\
+\vspace{7pt}
+{\Huge SOME APPLICATIONS OF}\\
+\vspace{7pt}
+{\Huge TRIGONOMETRY}
 \end{center}
 
 
@@ -40,9 +44,10 @@ distances from the Earth to the planets and stars. Trigonometry is also used in 
 and in navigation. The knowledge of trigonometry is used to construct maps, determine
 the position of an island in relation to the longitudes and latitudes.
 
-\begin{figure}[h]
+
+\begin{figure}[!h]
 \centering
-\includegraphics[width=0.2\textwidth]{a.png}
+\includegraphics[width=0.2\columnwidth]{a.png}
 \caption{A Theodolite}
 \end{figure}
 
@@ -51,11 +56,12 @@ the position of an island in relation to the longitudes and latitudes.
 \section*{9.2 Heights and Distances}
 
 Let us consider Fig. 8.1 of prvious chapter, which is redrawn below in Fig. 9.1.
-\begin{figure}[h]
+\begin{figure}[!h]
 \centering
-\includegraphics[width=0.4\textwidth]{b.png}
+\includegraphics[width=0.4\columnwidth]{b.png}
 \caption{Line of sight and angle of elevation}
 \end{figure}
+
 
 
 In this figure, the line AC drawn from the eye of the student to the top of the
@@ -69,12 +75,12 @@ above the horizontal level, i.e., the case when we raise our head to look at the
 (see Fig. 9.2).
 
 
-\begin{figure}[h]
+
+\begin{figure}[!h]
 \centering
-\includegraphics[width=0.5\textwidth]{c.png}
+\includegraphics[width=0.5\columnwidth]{c.png}
 \caption{Angle of elevation}
 \end{figure}
-
 Now, consider the situation given in Fig. 8.2. The girl sitting on the balcony is
 looking down at a flower pot placed on a stair of the temple. In this case, the line of
 sight is below the horizontal level. The angle so formed by the line of sight with the
@@ -83,9 +89,11 @@ Thus, the angle of depression of a point on the object being viewed is the angle
 formed by the line of sight with the horizontal when the point is below the horizontal
 level, i.e., the case when we lower our head to look at the point being viewed
 (see Fig. 9.3).
-\begin{figure}[h]
+
+
+\begin{figure}[!h]
 \centering
-\includegraphics[width=0.5\textwidth]{f.jpg}
+\includegraphics[width=0.5\columnwidth]{f.jpg}
 \caption{Angle of elevation}
 \end{figure}
 
@@ -108,6 +116,7 @@ either tan A or cot A, as these ratios involve AB and BC.
 
 
 
+
 \section*{Example 4}
 
 From a point $P$ on the ground the angle of elevation of the top of a $10$ m tall building
@@ -125,21 +134,21 @@ i.e., $PA$.
 Since we know the height of the building $AB$, we will first consider the right
 $\triangle PAB$.
 
-$
-\tan 30^\circ = \frac{AB}{AP}
-$
+\begin{align}    
+\tan 30^\circ &= \frac{AB}{AP}
+\end{align}
 
 i.e.,
 
-$
-\frac{1}{\sqrt3} = \frac{10}{AP}
-$
+\begin{align}
+\frac{1}{\sqrt3} &= \frac{10}{AP}
+\end{align}
 
 Therefore,
 
-$
-AP = 10\sqrt3
-$
+\begin{align}
+AP &= 10\sqrt3
+\end{align}
 
 i.e., the distance of the building from $P$ is $10\sqrt3$ m $= 17.32$ m.
 
@@ -147,25 +156,25 @@ Next, let us suppose $DB = x$ m. Then $AD = (10 + x)$ m.
 
 Now, in right $\triangle PAD$,
 
-$
+\begin{align}
 \tan 45^\circ = \frac{AD}{AP} = \frac{10 + x}{10\sqrt3}
-$
+\end{align}
 
 Therefore,
 
-$
-1 = \frac{10 + x}{10\sqrt3}
-$
+\begin{align}
+1 &= \frac{10 + x}{10\sqrt3}
+\end{align}
 
-$
-x = 10(\sqrt3 - 1)
-$
+\begin{align}
+x &= 10(\sqrt3 - 1)
+\end{align}
 
 So, the length of the flagstaff is $7.32$ m.
 
-\begin{figure}[h]
+\begin{figure}[!h]
 \centering
-\includegraphics[width=0.45\textwidth]{d.png}
+\includegraphics[width=0.45\columnwidth]{d.png}
 \caption{Example 4 diagram}
 \end{figure}
 
@@ -180,38 +189,34 @@ when the Sun's altitude is  $30^\circ$ than when it is
 
 
 Solution :
-\begin{figure}[h]
+\begin{figure}[!h]
 \centering
-\includegraphics[width=0.4\textwidth]{e.png}
+\includegraphics[width=0.4\columnwidth]{e.png}
 \caption{Example 5 diagram}
 \end{figure}
 
 Let the height of the tower be $h$ and the shorter shadow be $x$.
 
-$
+\begin{align}
 \tan 60^\circ = \frac{h}{x}
 \Rightarrow h = x\sqrt3
-$
+\end{align}
 
-$
+\begin{align}
 \tan 30^\circ = \frac{h}{x + 40}
-$
+\end{align}
 
 Substituting,
 
-$
+\begin{align}
 (x\sqrt3)\sqrt3 = x + 40
 \Rightarrow 3x = x + 40
 \Rightarrow x = 20
-$
+\end{align}
 
-$
+\begin{align}
 h = 20\sqrt3
-$
-
-
-
-
+\end{align}
 
 \section*{9.3 Summary}
 
