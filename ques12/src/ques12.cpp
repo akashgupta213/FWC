@@ -1,10 +1,10 @@
-#include<Arduino.h>
 
-// 7447 pins
+#include<Arduino.h>
+//7447 PINS
 int pA = 2;
 int pB = 3;
 int pC = 4;
-int pD = 5;
+int pD = 5 ;
 
 void setup()
 {
@@ -13,7 +13,6 @@ void setup()
   pinMode(pC, OUTPUT);
   pinMode(pD, OUTPUT);
 }
-
 void loop()
 {
   // Inputs
@@ -23,8 +22,7 @@ void loop()
 
   // Step 1: XOR
   int X1 = A ^ B;
-
-  // Step 2: XNOR (NOT of XOR)
+// step 2 : XNOR OF XOR OF A & B 
   int X2 = !(A ^ B);
 
   // Step 3: Final XNOR with C
